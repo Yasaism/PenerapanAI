@@ -1,0 +1,33 @@
+<resources>
+    <!-- Labels for input fields -->
+    <string name="course_name_hint">Nama Mata Kuliah</string>
+    <string name="course_score_hint">Nilai Mata Kuliah</string>
+
+    <!-- Button texts -->
+    <string name="add_course_button">Tambah</string>
+    <string name="recommend_button">Rekomendasikan Topik Skripsi</string>
+
+    <!-- Course details -->
+    <string name="course_name_label">Nama Mata Kuliah</string>
+    <string name="course_score_label">Score: %1$s</string>
+
+    <!-- Buttons in item view -->
+    <string name="edit_button">Edit</string>
+    <string name="delete_button">Delete</string>
+
+    <!-- Dialog titles -->
+    <string name="recommendation_dialog_title">Rekomendasi Topik Skripsi</string>
+    <string name="ok_button">OK</string>
+
+    <string name="app_name">Tugas Penerapan AI</string>
+    <string name="course_name_required">Nama Mata Kuliah diperlukan</string>
+    <string name="course_score_required">Nilai Mata Kuliah diperlukan</string>
+    <string name="invalid_score">Masukkan nilai yang valid antara 0 dan 100</string>
+    <string name="recommendation_prompt">Rekomendasikan topik skripsi berdasarkan mata kuliah berikut: %1$s dengan nilai %2$s.</string>
+    <string name="recommendation_title">Rekomendasi Topik Skripsi</string>
+    <string name="no_recommendation">Tidak ada rekomendasi ditemukan.</string>
+    <string name="ok">OK</string>
+    <string name="edit_course">Edit Mata Kuliah</string>
+    <string name="save">Simpan</string>
+    <string name="cancel">Batal</string>
+</resources>

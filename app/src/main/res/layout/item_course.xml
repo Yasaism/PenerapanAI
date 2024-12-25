@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!-- Nama Mata Kuliah -->
+    <TextView
+        android:id="@+id/textViewCourseName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/course_name_label"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:padding="8dp"/>
+
+    <!-- Nilai Mata Kuliah -->
+    <TextView
+        android:id="@+id/textViewCourseScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/course_score_label"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewCourseName"
+        android:padding="8dp"/>
+
+    <!-- Tombol Edit -->
+    <Button
+        android:id="@+id/buttonEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/edit_button"
+        app:layout_constraintTop_toBottomOf="@id/textViewCourseScore"
+        app:layout_constraintStart_toStartOf="parent"
+        android:padding="8dp"/>
+
+    <!-- Tombol Delete -->
+    <Button
+        android:id="@+id/buttonDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/delete_button"
+        app:layout_constraintTop_toBottomOf="@id/textViewCourseScore"
+        app:layout_constraintStart_toEndOf="@id/buttonEdit"
+        android:padding="8dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
